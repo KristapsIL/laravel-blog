@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Posts</h1>
+    <a href="/create">Create a Post</a>
     <ul>
     @foreach($posts as $post)
         <li><a href="show/{{$post->id}}">{{ $post->title }}</a></li>

@@ -21,9 +21,10 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        Post::factory()->create([
-            'title' => '1 Post',
-            'category_id' => 1,
-        ]);
+        // Post::factory()->create([
+        //     'title' => '1 Post',
+        //     'category_id' => 1,
+        // ]);
+        Post::factory(30)->create();
         }
 }
